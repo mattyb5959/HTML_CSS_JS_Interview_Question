@@ -13,4 +13,4 @@ The app should include functionality to remove guests from the guest list, track
 
 - limited the amount of votes per user
 - limited same name and charaters submissions
-- 
+  
