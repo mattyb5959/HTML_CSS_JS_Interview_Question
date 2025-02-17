@@ -1,0 +1,45 @@
+<html data-theme="light" lang="en">
+    <!-- HEAD -->
+    <head>
+        <title>Halloween Party Guest List</title>
+        <!-- Pico.css library that gives us some default styles for fonts, buttons, etc -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+        />
+
+        <!-- My StyleSheet -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <main>
+            <section id="table">
+                <div>
+                    <h1 class="text">Halloween Guest List <span id="totalGuests">(0)</span></h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Costume</th>
+                                <th>Likes</th>
+                            </tr>
+                        </thead>
+                        <tbody id="costumeTableBody">
+                            <!-- Dynamic Rows Here-->
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><input type="text" id="nameInput" placeholder="Enter name"></td>
+                                <td><input type="text" id="costumeInput" placeholder="Enter costume"></td>
+                                <td><button id="addEntryButton">Add</button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    
+                    <script src="input.js"></script>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+/* ---------- Global Styles ---------- */
+body {
+    font-family: 'Times New Roman', Times;
+    text-align: left;
+    background-color: black;
+    margin: 10px;
+}
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+th {
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: gray;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 2px;
+}
+.thumbs-up {
+    color: green;
+}
+.thumbs-down {
+    color: red;
+}
+.highlight td {
+    color: #66FF00; /* Green Text Color */
+}
+.likes-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes-column .votes {
+    margin: 0 10px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times;
+    color: orange;
+}
